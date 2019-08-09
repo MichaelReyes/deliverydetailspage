@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/imgLogo"
+    style="@style/scale_image_fit_center"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:contentDescription="@string/app_name"
+    android:padding="@dimen/margin_extra_small"
+    android:src="@drawable/ic_launcher_background"
+    android:visibility="visible"/>

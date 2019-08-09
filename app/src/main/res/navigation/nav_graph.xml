@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools" android:id="@+id/nav_graph" app:startDestination="@id/deliveryListFragment">
+
+    <fragment android:id="@+id/deliveryListFragment"
+              android:name="com.tech.deliverydetailspage.features.delivery.list.view.DeliveryListFragment"
+              android:label="DeliveryListFragment">
+        <action android:id="@+id/action_deliveryListFragment_to_deliveryDetailsFragment"
+                app:destination="@id/deliveryDetailsFragment"/>
+    </fragment>
+
+    <fragment android:id="@+id/deliveryDetailsFragment"
+              android:name="com.tech.deliverydetailspage.features.delivery.details.view.DeliveryDetailsFragment"
+              android:label="fragment_delivery_details"/>
+</navigation>

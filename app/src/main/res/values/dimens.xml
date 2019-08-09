@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <dimen name="margin_xx_small">2dp</dimen>
+    <dimen name="margin_extra_small">4dp</dimen>
+    <dimen name="margin_small">8dp</dimen>
+    <dimen name="margin_medium">16dp</dimen>
+    <dimen name="margin_large">32dp</dimen>
+    <dimen name="margin_extra_large">64dp</dimen>
+    <dimen name="margin_xx_large">96dp</dimen>
+    <dimen name="margin_xxx_large">110dp</dimen>
+    <dimen name="margin_xxxx_large">124dp</dimen>
+    <dimen name="margin_xxxxx_large">136dp</dimen>
+
+    <dimen name="font_size_extra_small">10sp</dimen>
+    <dimen name="font_size_small">12sp</dimen>
+    <dimen name="font_size_medium">16sp</dimen>
+    <dimen name="font_size_large">20sp</dimen>
+    <dimen name="font_size_extra_large">24sp</dimen>
+    <dimen name="font_size_xx_large">28sp</dimen>
+
+</resources>
